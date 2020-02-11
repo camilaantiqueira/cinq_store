@@ -1,0 +1,220 @@
+.mat-card-header{
+    background-color:#002c4f;
+    color:white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    margin-bottom: 5%;
+    padding-top: 0%;
+    
+   /*  border-style: solid;
+*/}
+
+.mat-card-subtitle{
+   color:white;
+   /* border-style: solid; */
+
+}
+
+.mat-card{
+  /*  background-color: black; */
+ 
+}
+
+.mat-card-title{
+   /* border-style: solid; */
+   margin-top: -20%;
+   padding-top: 0%;
+   
+   /* border-style: solid; */
+   padding: 2%; 
+   width:300px ;
+   margin-top: -25px;
+   margin-left: -4%;
+   letter-spacing: 1px;
+}
+
+.card{
+
+   margin-top: 5%;
+   width: 500px;
+   padding: 0;
+   box-shadow: 2px -0.5px 5px 3px rgba(#020d3b, $alpha: 0.5) ;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px; 
+   margin-bottom: 2%;
+  
+}
+
+.historic{
+   
+    /* border-style: solid;   */
+    margin-top: 1%;
+    padding: 7%;
+    padding-bottom: 4%;
+    padding-left: 12%;
+    padding-right: 12%;
+   
+}
+
+
+
+.mat-card-content{
+   /* margin-left: 2%; */
+   /* font-weight: 800; */
+   letter-spacing: 1.5px;
+   /* color: rgba($color: #9b9797, $alpha: 1.0); */
+   color: #002c4f;
+}
+/* 
+.mat-button {
+   box-shadow: 1px 0.7px 1px 0.5px rgba(#020d3b, $alpha: 0.5) ; 
+   background-color: #ee9658 !important;
+   border-color: #ee9658 !important;
+   color: white;
+   letter-spacing: 1px;
+   left: 3%;
+   
+} */
+
+.productImage{
+   /* border-style:solid ; */
+   top: 200px;
+   margin-bottom: 1px;
+}
+
+.historicItems{
+    width: 455px;
+    background-color: #eee;
+    color:rgb(121, 116, 116);
+    /* font-weight: 550; */
+   /*  padding: 15px; */
+   /* border: 1px solid #ccc; */
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-radius: 5px;
+    padding-right: 20px;
+    /* border-style: solid;
+    border-color:rgb(121, 116, 116);
+    border-width: 1px; */
+    box-shadow: 0px, 0px, 0px;
+    vertical-align: auto;
+    
+}
+
+.historicHeader{
+    color:rgb(129, 129, 129);
+    font-weight: 420;
+    letter-spacing: 1px;
+    /* border-style: solid; */
+    width: 480px;
+    margin-left: 10px;
+}
+
+.historicAtribute{
+    /* border-style: solid; */
+    width: 400px;
+    padding-left: 0px;
+    margin-left: -500px;
+    font-size: 13px; 
+    font-weight: 400;
+}
+
+#arrow_left{
+    font-size: 40px;
+    color: #ee9658;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#arrow_right{
+    font-size: 40px; 
+    color:#ee9658;
+    font-weight: bolder; 
+    cursor: pointer;
+}
+.mounth{
+    /* border-style: solid;  */ 
+    /* letter-spacing: 0.2px; */
+    
+    margin-top: -5px;
+    text-transform: uppercase;
+    font-size: 11px;
+  /*   font-weight: 600; */
+    width: 300px;
+    color: #fff;
+}
+
+.mounthFilter{
+    /* border-style: solid; */
+    padding-top: 2px;
+    font-size: 3em;
+    background-color:#002c4f;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50px;
+    color: #fff;
+   /*  margin-left: 20px; */
+   margin: 0 auto;
+}
+
+.mat-form-field{
+    width: 120px;
+    border-style: solid;
+    margin-left: 8px;
+}
+.user{
+   /*  border-style: solid; */
+    width: 450px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    margin-left: 15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-radius: 8px;
+    padding-right: 20px;
+    background-color:#002c4f;
+    color: #fff;
+}
+
+.mat-progress-bar{
+    width: 455px;
+   margin-left: 20px;
+   margin-top: 10px;
+   /* border-style: solid; */
+  
+}
+
+.infoProgress{
+    /* border-style: solid; */
+    margin-top: 30px;
+    margin-left: 20px;
+    color:rgb(129, 129, 129);
+    font-weight: 500;
+}
+
+#myPoints{
+   /*  border-style:solid ; */
+    width: 80px;
+    height: 55px;
+    padding-right: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    color:rgb(129, 129, 129);
+    font-weight: 500;
+    font-size: 170%;
+   /*  text-align: center; */
+}
+#pointsHistoric{
+    /* border-style: solid; */
+    height: 50px;
+    width: 120px;
+    font-size: 120%;
+    color: #ee9658;
+    font-weight: 500;
+    margin-right: 15px;
+    margin-top: 40px;
+    text-align: center;
+}
+.headerPoints{
+    /* border-style: solid; */
+}

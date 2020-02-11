@@ -1,0 +1,25 @@
+<div fxLayout="column" fxLayoutAlign="center center"fxLayoutGap = "10%">
+    <form class="example-form" fxLayout="row">
+        <div>
+            <input class = "inputOptions" type="text" placeholder="Digite uma categoria de produto" matInput [formControl]="myControl" [matAutocomplete]="auto">
+            <mat-autocomplete #auto="matAutocomplete">
+            <mat-option  *ngFor="let product of filteredProducts| async" [value]="product">
+                {{product}}
+            </mat-option>
+            </mat-autocomplete>
+        </div>
+        <div  class = "search"fxLayoutAlign="end center">
+            <i class="fas fa-search"></i>
+        </div>
+    </form>
+    <div  class = "productDashboard" fxLayout="row"   fxFlex="50%">
+        <app-product *ngFor = "let product of productData "
+            [productPhoto] = "product.productPhoto"
+            [altPhoto] = "product.altPhoto"
+            [productName] = "product.productName"
+            [productvalue] = "product.productvalue"
+            [productQuantity] = "product.productQuantity"
+            [productIcon] = "product.productIcon">
+        </app-product>
+    </div>
+</div>

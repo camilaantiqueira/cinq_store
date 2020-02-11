@@ -1,0 +1,37 @@
+<div fxLayoutAlign="center center" fxLayout="column" class="main-container">
+    <mat-card class="card"  >
+        <mat-card-header  fxLayoutAlign="center start" fxLayout="column">
+            <div mat-card-avatar class="example-header-image"  ></div>
+            <mat-card-title fxLayout="row" fxLayoutGap = "3%">
+                <i class="material-icons">history</i>
+                <div>Ranking CINQ points</div>
+            </mat-card-title >
+        </mat-card-header>
+        <mat-card-content>
+            <div fxLayout="row" fxLayoutAlign="space-around center" class="headerPoints">
+                <div id = "myPoints">Meus pontos</div>
+                <div fxLayout="column" class="mounthFilter"  fxLayoutAlign="center center">
+                    <div>250</div>
+                    <div class="mounth"  fxLayoutAlign="center center">{{currentDate}}</div>
+                </div> 
+                <div id = "pointsHistoric">Ver histórico de CPs</div>
+            </div>
+            <div fxLayout="column" > 
+                <div class = "infoProgress">CINQ Points: 100/160 points para esse mês (62%)</div>
+                <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+                <div class = "user">14° - Usuário  - 250</div>
+            </div>
+            <div class="historic" fxLayout="column" fxLayoutAlign="center center"fxLayoutGap = "2%" >
+                <div class = "historicHeader" fxLayout="row" fxLayoutGap = "27%">
+                    <div>Ranking mensal</div>
+                    <div>Data de fechamento: 05/02/20</div>
+                </div>
+                <div class = "historicItems" *ngFor = "let user of usersRanking"  >
+                    <th class = "historicAtribute">{{user.ranking}}</th>
+                    <th class = "historicAtribute">{{user.name}}</th>
+                    <th class = "historicAtribute">{{user.points}}</th>
+                </div> 
+            </div>
+        </mat-card-content>
+    </mat-card>
+</div>

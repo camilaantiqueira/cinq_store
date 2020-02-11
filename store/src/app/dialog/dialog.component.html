@@ -1,0 +1,27 @@
+<div fxLayoutAlign="center center"  fxLayout="column" >
+    <div  id = "titleInfo" fxLayout="row" >
+        <div class = "icon">
+            <i class="fas fa-cart-arrow-down"></i>
+        </div>
+        <h4 class="title">Adicionar ao carrinho</h4>
+    </div>
+
+    <div  fxLayout="column" fxLayoutGap = "4%" >
+        <div fxLayout="row"  fxLayoutGap = "10%">
+            <p  id = "infoQuantity">Quantidade :</p>
+            <p  id = "result" >Valor total :</p>
+        </div>
+        <div fxLayout="row" fxLayoutGap = "20%" >
+            <form class="example-margin"  fxLayout="row"  >
+                <input class ="inputNumber" [(ngModel)]="quantity" type="number" name="quantity" min="1" max="10" (input) = "value"  placeholder="0">
+            </form>
+            <div id = "purchaseValue">{{data.price * quantity}} CPs</div>
+        </div>
+
+    </div>
+
+    <div mat-dialog-actions fxLayout="row">
+        <button mat-button (click)="onNoClick()">Cancelar</button>
+        <button mat-button (click) = "setProductValues()" cdkFocusInitial>Continuar</button>
+    </div>
+</div>

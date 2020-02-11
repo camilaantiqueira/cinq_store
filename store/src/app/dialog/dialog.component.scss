@@ -1,0 +1,102 @@
+input {
+    border: none;
+    background: none;
+    padding: 0;
+    outline: none;
+    font: inherit;
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .mat-form-field{
+      /* background-color: black; */
+     
+  }
+
+  .mat-button {
+    margin-top: 12%;
+    margin-bottom: 5%;
+
+    background-color: #ee9658 !important;
+    color: white;
+    font-size: 17px;
+   /*  box-shadow: 2px -0.5px 5px 3px rgba(#020d3b, $alpha: 0.5);  */
+  }
+
+  .info{
+      border-style: solid;
+      letter-spacing: 1px;
+      
+  }
+  .title{
+      /* border-style: solid; */
+      font-size: 19px;
+      letter-spacing: 1px;
+      color: #002c4f;
+  }
+
+.inputNumber{
+ border-style: solid; 
+    border-width: 1px;
+    width: 70%;
+    border-radius: 10px;
+    padding: 8px;
+    border-color: rgb(226, 221, 221);
+    color: #002c4f;
+    font-weight:500;
+    margin-left: 44%;
+    
+}
+.example-margin{
+   /*  border-style: solid; */
+    width: 35%;
+  
+}
+
+#result{
+    /* border-style: solid; */
+    width: 90%;  
+    color: #002c4f;
+    font-weight:500;
+    font-size: 17px;
+}
+#infoQuantity{
+    /* border-style: solid; */
+    width: 300px;
+    color: #002c4f;
+    font-weight:500;
+    font-size: 17px;
+    margin-left: 12%;
+}
+#purchaseValue{
+   /*  border-style: solid; */
+    width: 150px;
+    padding-top: 2%;
+    color: #002c4f;
+    font-weight:500;
+    font-size: 17px;
+    padding-left: 5%;
+    
+    /* padding-left: 5%; */
+}
+#titleInfo{
+    /* border-style: solid; */
+    background-color:rgb(240, 240, 240);;
+    width: 112%;
+    margin-top: -6%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 4%;
+}
+
+.icon{
+    /* border-style: solid; */
+    width: 15%;
+    padding-bottom: 2px;
+    height: 4%;
+    font-size: 30px;
+    margin-top: 4%;
+    margin-right: 5%;
+    margin-left: 5%;
+
+}

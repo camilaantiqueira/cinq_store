@@ -1,0 +1,24 @@
+<!-- <form class="example-form">
+    <mat-form-field class="example-full-width">
+      <input  class = "inputOptions" type="text"  aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto">
+      <mat-autocomplete class="completeOptions" #auto="matAutocomplete">
+        <mat-option class="options" *ngFor="let option of options" [value]="option">
+          {{option}}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+  </form> -->
+
+  <form class="example-form" fxLayout="row" >
+    <div>
+        <input class = "inputOptions" type="text" placeholder="Digite uma categoria de produto" matInput [formControl]="myControl" [matAutocomplete]="auto">
+        <mat-autocomplete #auto="matAutocomplete">
+          <mat-option  *ngFor="let product of filteredProducts| async" [value]="product">
+            {{product}}
+          </mat-option>
+        </mat-autocomplete>
+    </div>
+    <div  class = "search"fxLayoutAlign="end center">
+        <i class="fas fa-search"></i>
+    </div>
+  </form>

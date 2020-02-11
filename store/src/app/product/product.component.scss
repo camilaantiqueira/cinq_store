@@ -1,0 +1,93 @@
+.mat-card-header{
+     background-color:#002c4f;
+     color:white;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px; 
+     margin-bottom: 5%;
+     padding-top: 0%;
+     
+    /*  border-style: solid;
+ */}
+
+.mat-card-subtitle{
+    color:white;
+    /* border-style: solid; */
+
+}
+
+.mat-card{
+   /*  background-color: black; */
+  
+}
+
+.mat-card-title{
+    /* border-style: solid; */
+    margin-top: -20%;
+    padding-top: 0%;
+    /* border-style: solid; */
+    padding: 2%; 
+    width:300px ;
+    margin-top: -25px;
+    margin-left: -4%;
+    letter-spacing: 1px;
+}
+
+.card{
+    /* border-style: solid; */
+    width: 70%;
+    padding: 0;
+    padding-bottom: 1.5%;
+    box-shadow: 2px -0.5px 5px 3px rgba(#020d3b, $alpha: 0.5) ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    padding-bottom: 5%;
+    cursor: pointer;
+}
+
+.card:hover{
+    width: 73%; 
+    transition: 0.3s;
+}
+
+.product{
+    
+     /* border-style: solid;   */
+     margin-top: 1%;
+     padding: 7%;
+     padding-bottom: 4%;
+     padding-left: 12%;
+     padding-right: 12%;
+    
+}
+
+
+
+.mat-card-content{
+    /* margin-left: 2%; */
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    /* color: rgba($color: #9b9797, $alpha: 1.0); */
+    color: #002c4f;
+}
+
+.mat-button {
+    box-shadow: 1px 0.7px 1px 0.5px rgba(#020d3b, $alpha: 0.5) ; 
+    background-color: #ee9658 !important;
+    border-color: #ee9658 !important;
+    color: white;
+    letter-spacing: 1px;
+    left: 3%;
+    
+}
+
+.productImage{
+    /* border-style:solid ; */
+    top: 200px;
+    margin-bottom: 1px;
+}
+#icon{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
